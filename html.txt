@@ -1,0 +1,23 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Show Image and Explosion</title>
+</head>
+<body>
+  <h1> Merry New Year </h1>
+  <button id="showImageButton">Present for you!</button>
+  <div id="imageContainer" class="hidden">
+    <img src="https://cdn-doisonggiadinh.baophunuthudo.vn/upload/3-2023/images/2023-09-02/luu-ngay-ve-may-20-khoanh-khac-hai-huoc-cua-boss-de-meo-thay-loi-ban-muon-noi-13-1693636886-582-width719height900.jpg" alt="Displayed Image">
+  </div>
+  <div id="explosionContainer" class="explosion-container">
+    <img src="https://scontent.fsgn6-2.fna.fbcdn.net/v/t1.15752-9/414034487_723878669673701_4863605298864019839_n.png?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=LkGVuLkJtgIAX_pKWnV&_nc_ht=scontent.fsgn6-2.fna&oh=03_AdQo0CjLmIoMJZLxGIpmk6lthS2Mdr9N0tgaOGE0nz2UAQ&oe=65B84CA4" alt="Explosion Image" class="explosion-image">
+    <div class="explosion"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
